@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Re-farmer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Re-farmer</h2>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    
+                    <ul class="nav-links">
+                        <li><a class="active" href="index.html">HOME</a></li>
+                        <li><a href="pages/ABOUT.html">ABOUT</a></li>
+                        <li><a href="pages/CONTACT.html">CONTACT</a></li>
+                        <li><a href="pages/SERVICE.html">SERVICE</a></li>
+
+
+                    </ul>
+                </nav>
+                
+            </div>
+            
+            
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1> Our's<br><span>Smart</span> <br>Vision</h1>
+            <p class="par">We are privileged to announce our new initiative "RE-FARMER" which acts as a bridge between farmer<br> and a buyer.This website provides you all the information about Agriculture, Crop production, crop rates.<br> Check out website for all the updates in agriculture industry. We try our best to bring all the info regarding<br> agriculture. Farmers are indeed backbone of our country. Please use our resources as much as possible,<br> connect to the buyers and sell your crop for the reasonable rates and get profited. <br>Your trust is our Profit. Looking forward for green India!</p>
+
+                <button class="cn"><a href="pages/SIGN UP.html">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="pages/SIGN UP.html">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="/.auth/login/facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        (async function() {
+            const { text } = await( await fetch(`/api/message`)).json();
+            document.querySelector('#name').textContent = text;
+        }())
+        </script>
+</body>
+</html>
